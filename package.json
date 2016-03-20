@@ -1,0 +1,28 @@
+{
+  "name": "utils.css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "global": "npm install -g gulp less bower",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youngapp/utils.css.git"
+  },
+  "author": "Gérard TOKO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/youngapp/utils.css/issues"
+  },
+  "homepage": "https://github.com/youngapp/utils.css#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-less": "^3.0.5",
+    "gulp-rename": "^1.2.2"
+  }
+}
