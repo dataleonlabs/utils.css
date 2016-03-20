@@ -54,11 +54,36 @@ Utils class for removed padding and margin
 * .u.u-no-pd-bttm
 
 
-## Font-size
+## Font size
 Repeat: 8, 9, 11, 12, 13, 14 to 50
 ```
-<div class="u u-fnt-size11"></div>
+<div class="u u-fnt-sz11"></div>
 ```
 
 **Class availables**
-* .u.u-fnt-size@{size}
+* .u.u-fnt-sz@{size}
+
+## Font weight
+Repeat: 100, 200, 300 to 1000
+```
+<div class="u u-fnt-wght300"></div>
+```
+
+**Humain class**
+```
+.u.u-fnt-wght-ligth {
+    font-weight: 100;
+}
+
+.u.u-fnt-wght-regular {
+  font-weight: 400;
+}
+
+.u.u-fnt-wght-bold {
+  font-weight: 600;
+}
+
+.u.u-fnt-wght-black {
+  font-weight: 900;
+}
+```
