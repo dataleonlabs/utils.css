@@ -2,6 +2,11 @@
 
 Simple class CSS for harmonized your stylesheets, padding, margin, font-size, font-weight and seperator.
 
+## Install
+```
+bower install utils.css
+```
+
 ## Padding & Margin
 Utils class for padding & margin
 
