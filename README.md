@@ -52,3 +52,13 @@ Utils class for removed padding and margin
 * .u.u-no-pd-lft
 * .u.u-no-pd-rght
 * .u.u-no-pd-bttm
+
+
+## Font-size
+Repeat: 8, 9, 11, 12, 13, 14 to 50
+```
+<div class="u u-fnt-size11"></div>
+```
+
+**Class availables**
+* .u.u-separator@{size}
