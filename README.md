@@ -1,6 +1,6 @@
 # Utils.css
 
-### Padding & Margin
+## Padding & Margin
 -----
 Utils class for padding & margin
 
@@ -23,7 +23,7 @@ Repeat: 15, 30, 45 to 150
 * .u.u-pd-bttm@{size}
 
 
-### Separator
+## Separator
 -----
 Repeat: 15, 30, 45 to 150
 ```
@@ -33,7 +33,7 @@ Repeat: 15, 30, 45 to 150
 **Class availables**
 * .u.u-separator@{size}
 
-### Removing padding & margin
+## Removing padding & margin
 -----
 Utils class for removed padding and margin
 
