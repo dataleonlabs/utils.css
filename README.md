@@ -61,4 +61,4 @@ Repeat: 8, 9, 11, 12, 13, 14 to 50
 ```
 
 **Class availables**
-* .u.u-separator@{size}
+* .u.u-fnt-size@{size}
