@@ -1,7 +1,6 @@
 # Utils.css
 
 ## Padding & Margin
------
 Utils class for padding & margin
 
 Repeat: 15, 30, 45 to 150
@@ -24,7 +23,6 @@ Repeat: 15, 30, 45 to 150
 
 
 ## Separator
------
 Repeat: 15, 30, 45 to 150
 ```
 <div class="u u-separator15"></div>
@@ -34,7 +32,6 @@ Repeat: 15, 30, 45 to 150
 * .u.u-separator@{size}
 
 ## Removing padding & margin
------
 Utils class for removed padding and margin
 
 ```
