@@ -1,5 +1,7 @@
 # Utils.css
 
+Simple class CSS for harmonized your stylesheets, add padding and margin, seperator
+
 ## Padding & Margin
 Utils class for padding & margin
 
