@@ -19,6 +19,9 @@ gulp.task('styles', function () {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('default', [
-  'styles'
-]);
+// Rerun the task when a file changes
+gulp.task('watch', function() {
+  gulp.watch(exports.files, ['styles']);
+});
+
+gulp.task('default', ['styles']);

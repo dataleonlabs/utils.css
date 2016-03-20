@@ -1,0 +1,219 @@
+// Margin & Padding
+@iterationsMrgPd: 10;
+// helper class, will never show up in resulting css
+// will be called as long the index is above 0
+.loopingClassMrgPd (@index) when (@index > 0) {
+
+    @size : @index * 15;
+
+    // create the actual css selector, example will result in
+    // .myclass_30, .myclass_28, .... , .myclass_1
+    .u.u-mrg@{size} {
+        // your resulting css
+        margin: ~"@{size}px";
+    }
+
+    .u.u-mrg-tp@{size} {
+        // your resulting css
+        margin-top: ~"@{size}px";
+    }
+
+    .u.u-mrg-lft@{size} {
+        // your resulting css
+        margin-left: ~"@{size}px";
+    }
+
+    .u.u-mrg-rght@{size} {
+        // your resulting css
+        margin-right: ~"@{size}px";
+    }
+
+    .u.u-mrg-bttm@{size} {
+        // your resulting css
+        margin-bottom: ~"@{size}px";
+    }
+
+
+    // create the actual css selector, example will result in
+    // .myclass_30, .myclass_28, .... , .myclass_1
+    .u.u-pd@{size} {
+        // your resulting css
+        padding: ~"@{size}px";
+    }
+
+    .u.u-pd-tp@{size} {
+        // your resulting css
+        padding-top: ~"@{size}px";
+    }
+
+    .u.u-pd-lft@{size} {
+        // your resulting css
+        padding-left: ~"@{size}px";
+    }
+
+    .u.u-pd-rght@{size} {
+        // your resulting css
+        padding-right: ~"@{size}px";
+    }
+
+    .u.u-pd-bttm@{size} {
+        // your resulting css
+        padding-bottom: ~"@{size}px";
+    }
+
+
+    .u.u-pd-bttm@{size} {
+        // your resulting css
+        padding-bottom: ~"@{size}px";
+    }
+
+    .u.u-separator@{size} {
+        // your resulting css
+        margin-top: ~"@{size}px";
+        margin-bottom: ~"@{size}px";
+    }
+
+    // next iteration
+    .loopingClassMrgPd(@index - 1);
+}
+
+// end the loop when index is 0
+.loopingClassMrgPd (0) {}
+
+// "call" the loopingClass the first time with highest value
+.loopingClassMrgPd (@iterationsMrgPd);
+
+
+// Margin & Padding
+@iterationsNoMrgPd: 1;
+// helper class, will never show up in resulting css
+// will be called as long the index is above 0
+.loopingClassNoMrgPd (@index) when (@index > 0) {
+
+    // create the actual css selector, example will result in
+    // .myclass_30, .myclass_28, .... , .myclass_1
+    .u.u-no-mrg {
+        // your resulting css
+        margin: 0;
+    }
+
+    .u.u-no-mrg-tp {
+        // your resulting css
+        margin-top: 0;
+    }
+
+    .u.u-no-mrg-lft {
+        // your resulting css
+        margin-left: 0;
+    }
+
+    .u.u-no-mrg-rght {
+        // your resulting css
+        margin-right: 0;
+    }
+
+    .u.u-no-mrg-bttm {
+        // your resulting css
+        margin-bottom: 0;
+    }
+
+
+    // create the actual css selector, example will result in
+    // .myclass_30, .myclass_28, .... , .myclass_1
+    .u.u-no-pd {
+        // your resulting css
+        padding: 0;
+    }
+
+    .u.u-no-pd-tp {
+        // your resulting css
+        padding-top: 0;
+    }
+
+    .u.u-no-pd-lft {
+        // your resulting css
+        padding-left: 0;
+    }
+
+    .u.u-no-pd-rght {
+        // your resulting css
+        padding-right: 0;
+    }
+
+    .u.u-no-pd-bttm {
+        // your resulting css
+        padding-bottom: 0;
+    }
+
+    // next iteration
+    .loopingClassNoMrgPd(@index - 1);
+}
+
+// end the loop when index is 0
+.loopingClassNoMrgPd (0) {}
+
+// "call" the loopingClass the first time with highest value
+.loopingClassNoMrgPd (@iterationsNoMrgPd);
+
+
+@iterationsWeight: 1000;
+// helper class, will never show up in resulting css
+// will be called as long the index is above 0
+.loopingClassWeight (@index) when (@index > 0) {
+    // create the actual css selector, example will result in
+    // .myclass_30, .myclass_28, .... , .myclass_1
+    .u.u-fnt-wght@{index} {
+        // your resulting css
+        font-weight: ~"@{index}";
+    }
+
+    // next iteration
+    .loopingClassWeight(@index - 100);
+}
+
+// end the loop when index is 0
+.loopingClassWeight (0) {}
+
+// "call" the loopingClass the first time with highest value
+.loopingClassWeight (@iterationsWeight);
+
+.u.u-fnt-wght-ligth {
+    // your resulting css
+    font-weight: 100;
+}
+
+.u.u-fnt-wght-regular {
+  font-weight: 400;
+}
+
+.u.u-fnt-wght-bold {
+  font-weight: 600;
+}
+
+.u.u-fnt-wght-black {
+  font-weight: 900;
+}
+
+.u.u-strong {
+  font-weight: bold;
+}
+
+.u.u-clear {
+  clear: both;
+}
+
+
+@iterationsWeight: 50;
+// helper class, will never show up in resulting css
+// will be called as long the index is above 0
+.loopingClassWeight (@index) when (@index > 0) {
+    // create the actual css selector, example will result in
+    // .myclass_30, .myclass_28, .... , .myclass_1
+    .u.u-fnt-size@{index} {
+        // your resulting css
+        font-size: ~"@{index}px";
+    }
+
+    // next iteration
+    .loopingClassWeight(@index - 2);
+}
