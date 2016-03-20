@@ -1,0 +1,26 @@
+{
+  "name": "utils.css",
+  "description": "Simple class CSS for harmonized your stylesheets, padding, margin, font-size, font-weight and seperator.",
+  "main": "dist/utils.css",
+  "authors": [
+    "Gérard TOKO"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css",
+    "padding",
+    "margin",
+    "font-size",
+    "font-weight",
+    "seperator"
+  ],
+  "homepage": "https://github.com/youngapp/utils.css",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
